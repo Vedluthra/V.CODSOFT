@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Anand Enterprises - Earthmoving Company</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <!-- Landing Page Content -->
+  <header class="hero">
+    <div class="container">
+      <h1>Anand Enterprises</h1>
+      <p>Your Trusted Earthmoving Solution</p>
+      <a href="#contact" class="cta-button">Get a Quote</a>
+    </div>
+  </header>
+
+  <section class="about">
+    <div class="container">
+      <h2>About Us</h2>
+      <p>
+        Anand Enterprises is a leading earthmoving company based in Nashik, providing reliable and efficient solutions for your construction and excavation needs.
+        With decades of experience in the industry, we deliver top-notch services and operate state-of-the-art equipment, including hydraulic excavators, to handle projects of any scale.
+      </p>
+      <img src="https://tse1.mm.bing.net/th?id=OIP.t-M9yH6mmsHaDdCSeGWWbQHaFj&pid=Api&rs=1&c=1&qlt=95&w=165&h=124" alt="Hydraulic Excavator" class="excavator-image">
+    </div>
+  </section>
+
+  <section class="services">
+    <div class="container">
+      <h2>Our Services</h2>
+      <ul>
+        <li>Land Clearing</li>
+        <li>Excavation</li>
+        <li>Trenching</li>
+        <li>Site Grading</li>
+        <li>Demolition</li>
+       
+      </ul>
+    </div>
+  </section>
+
+  <section id="contact" class="contact">
+    <div class="container">
+      <h2>Contact Us</h2>
+      <p>For inquiries and quotes, please contact us at:</p>
+      <p class="contact-number">Contact Number: +919823099708</p>
+      <form id="contactForm" method="post">
+        <input type="text" name="name" placeholder="Your Name" required>
+        <input type="email" name="email" placeholder="Your Email" required>
+        <textarea name="message" placeholder="Your Message" required></textarea>
+        <button type="submit">Get in Touch</button>
+      </form>
+    </div>
+  </section>
+
+  <footer class="footer">
+    <div class="container">
+      <p>&copy; 2023 Anand Enterprises. All rights reserved.</p>
+    </div>
+  </footer>
+
+  <!-- JavaScript for form submission handling -->
+  <script>
+    document.getElementById("contactForm").addEventListener("submit", function (event) {
+      event.preventDefault();
+      
+    });
+  </script>
+</body>
+</html>
